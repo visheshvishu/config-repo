@@ -30,6 +30,6 @@ spring:
 
         binder:
 
-          zkNodes: localhost
+          zkNodes: 127.0.0.1
 
-          brokers: localhost
+          brokers: 127.0.0.1
