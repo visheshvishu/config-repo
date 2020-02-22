@@ -16,7 +16,7 @@ spring:
 
     show-sql: true
 
-    hibernate.ddl-auto: create-drop
+    hibernate.ddl-auto: update
 
   cloud:
 
@@ -36,4 +36,4 @@ spring:
 
         binder:
 
-          brokers: kafka
+          brokers: localhost
