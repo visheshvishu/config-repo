@@ -36,4 +36,4 @@ spring:
 
         binder:
 
-          brokers: localhost
+          brokers: kafka
