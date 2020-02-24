@@ -37,3 +37,5 @@ spring:
         binder:
 
           brokers: kafka
+          
+          zkNodes: kafka
