@@ -36,4 +36,6 @@ spring:
 
         binder:
 
-          brokers: kafka
+          brokers: localhost
+          
+          zkNodes: localhost
