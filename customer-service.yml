@@ -2,7 +2,7 @@ spring:
 
   datasource:
 
-    url: jdbc:localhost://mysql:3306/e_commerce
+    url: jdbc:localhost://localhost:3306/e_commerce
 
     username: root
 
