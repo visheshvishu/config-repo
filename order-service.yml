@@ -39,4 +39,4 @@ spring:
 
         binder:
 
-          brokers: kafka
+          brokers: 34.131.200.139:9092
