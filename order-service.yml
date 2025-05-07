@@ -21,22 +21,22 @@ spring:
 
     hibernate.ddl-auto: update
 
-  # cloud:
+  cloud:
 
-  #   stream:
+    stream:
 
-  #     bindings:
+      bindings:
 
-  #       OrderEventsChannel:
+        OrderEventsChannel:
 
-  #         destination: OrderEventsChannel
+          destination: OrderEventsChannel
 
-  #         content-type: application/json
+          content-type: application/json
 
-  #         group: OrderEventsChannelQueue
+          group: OrderEventsChannelQueue
 
-  #     kafka:
+      kafka:
 
-  #       binder:
+        binder:
 
-  #         brokers: kafka
+          brokers: kafka
