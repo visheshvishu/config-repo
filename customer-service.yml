@@ -2,7 +2,7 @@ spring:
 
   datasource:
 
-    url: jdbc:mysql://mysql:3306/e_commerce
+    url: jdbc:mysql://mysql:3306/e_commerce  #if other services on host and mysql in docker, jdbc:mysql://172.18.0.2:3306/e_commerce
 
     username: root
 
